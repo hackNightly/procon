@@ -20,7 +20,7 @@ server.use((req, res, next) => {
 
   Consumer.enqueue(expression, (err, result) => {
     if (err) {
-      next(new Error('No expression found'));
+      next(new Error(err));
     }
     else {
       res.end(result.toString());
