@@ -61,7 +61,7 @@ setInterval(() => {
       console.error(err);
     }
     else {
-      console.log(`Producer<ID:${result.producerID}>: ${result.expression} was evaluated as ${result.body}`);
+      console.log(`Producer<ID:${result.producerID}> received response: ${result.expression}${result.body}`);
     }
   });
 }, 500);

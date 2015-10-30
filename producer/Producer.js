@@ -19,6 +19,8 @@ class Producer {
     const operator = ['+','-','*','/'][Math.floor(Math.random()*4)];
     const expression = `${left}${operator}${right}=`;
 
+    console.log(`Producer<${this.id}> generated expression ${expression}`);
+
     return {
       expression: expression,
       producerID: this.id
