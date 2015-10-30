@@ -7,7 +7,7 @@ const async = require('async');
  */
 class Consumer {
   constructor() {
-    this.queue = async.queue(this.evaluate, 10);
+    this.queue = async.queue(this.evaluate, 20);
   }
 
   /**
