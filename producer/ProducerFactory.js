@@ -4,10 +4,10 @@ const Producer = require('../producer/Producer');
 
 class ProducerFactory {
   static get(number) {
-    let producers = [];
+    const producers = [];
 
     for (let i = 0; i < number; i++) {
-      let instance = new Producer();
+      const instance = new Producer();
 
       producers.push(instance);
     }
