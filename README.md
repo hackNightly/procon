@@ -10,7 +10,3 @@ console2: npm run producer;<br />
 
 # Test
 npm test;
-
-# Diagrams
-![alt tag](https://raw.github.com/hacknightly/procon/master/procon-uml.png)
-![alt tag](https://raw.github.com/hacknightly/procon/master/procon-sequence.png)
